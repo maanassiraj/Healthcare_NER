@@ -11,9 +11,11 @@ But, note that it is not explicitly mentioned in the dataset about the diseases 
 You should identify the Diseases and their respective treatments from the data and list them as in the form of a table like the one below
 ![image](https://user-images.githubusercontent.com/56822829/138415785-93dc11c0-dffe-4bc0-b939-15bb6600fb78.png)
 
+## DATASET
 Four datasets have been provided to you
 - train_sent
 - test_sent
 - train_label
 - test_label
 
+The train dataset is used to train your model, and the test dataset is used to evaluate the built model. There are three labels that have been used in this dataset: O, D and T, which are corresponding to ‘Other’, ‘Disease’ and ‘Treatment’, respectively.
