@@ -9,6 +9,7 @@ Suppose you have been given such a data set in which a lot of text is written re
 But, note that it is not explicitly mentioned in the dataset about the diseases and their treatment, but somehow, you should build an algorithm to map the diseases and their respective treatment.
 
 You should identify the Diseases and their respective treatments from the data and list them as in the form of a table like the one below
+
 ![image](https://user-images.githubusercontent.com/56822829/138415785-93dc11c0-dffe-4bc0-b939-15bb6600fb78.png)
 
 ## DATASET
