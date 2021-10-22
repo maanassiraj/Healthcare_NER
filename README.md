@@ -12,11 +12,23 @@ You should identify the Diseases and their respective treatments from the data a
 
 ![image](https://user-images.githubusercontent.com/56822829/138415785-93dc11c0-dffe-4bc0-b939-15bb6600fb78.png)
 
-## DATASET
+
+
+## UNDERSTANDING THE DATA 
 Four datasets have been provided to you
 - train_sent
 - test_sent
 - train_label
 - test_label
 
-The train dataset is used to train your model, and the test dataset is used to evaluate the built model. There are three labels that have been used in this dataset: O, D and T, which are corresponding to ‘Other’, ‘Disease’ and ‘Treatment’, respectively.
+The train dataset is used to train your model, and the test dataset is used to evaluate the built model. 
+
+![image](https://user-images.githubusercontent.com/56822829/138418215-7def6480-8db9-46a6-b4cf-9aec0d0d1eeb.png)
+
+First lets understand the ‘train_sent’ and the ‘test_sent’ datasets. Here, you need to understand that each word in this dataset is provided in a single line. Moreover, there are blank lines given in the dataset that have been highlighted in the image given above. These blank lines indicate that a new sentence is starting from the next line onwards to the next blank line.
+
+Now, let’s take a look at the next datasets that are named ‘train_label’ and ‘test_label’.
+
+![image](https://user-images.githubusercontent.com/56822829/138418321-922a87cb-47a9-400f-aa16-e7034a755ec6.png)
+
+There are three labels that have been used in this dataset: O, D and T, which are corresponding to ‘Other’, ‘Disease’ and ‘Treatment’, respectively. These labels correspond to each word that is available in the ‘train_sent’ and 'test_sent' datasets. So, there is one-to-one mapping of each label available in the 'train_label' and 'test_label' datasets with the words that are available in the 'train_sent' and 'test_sent' datasets, respectively.
