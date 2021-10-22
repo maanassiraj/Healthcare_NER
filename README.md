@@ -1,2 +1,2 @@
-# Healthcare_NER
-Identifying entities in Healthcare data and mapping diseases with their treatments
+## PROBLEM STATEMENT
+A health tech company 'BeHealthy', aims to connect the medical communities with millions of patients across the country. ‘BeHealthy’ has a web platform that allows doctors to list their services and manage patient interactions and provides services for patients such as booking interactions with doctors and ordering medicines online. Here, doctors can easily organise appointments, track past medical records and provide e-prescriptions. They provide medical services, prescriptions and online consultations and generate huge data day by day.
